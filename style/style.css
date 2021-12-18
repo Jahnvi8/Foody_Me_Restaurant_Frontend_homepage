@@ -82,7 +82,6 @@ body {
 
 .nav li a:hover {
     color: #fff;
-    /* background: orange; */
     padding-left: 10px;
 }
 
@@ -108,7 +107,7 @@ body {
 
 header {
     min-height: 100vh;
-    background: linear-gradient(rgba(71, 66, 66, 0.575), rgba(0, 0, 0, 0.219)), url("https://images.pexels.com/photos/372882/pexels-photo-372882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(71, 66, 66, 0.575), rgba(0, 0, 0, 0.219)), url("../images/bg.jpeg") center/cover no-repeat fixed;
     margin-top: auto;
 }
 
@@ -236,7 +235,7 @@ header {
 
 .menu-image {
     min-height: 80vh;
-    background: linear-gradient(rgba(54, 51, 51, 0.226), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') center/cover fixed no-repeat;
+    background: linear-gradient(rgba(54, 51, 51, 0.226), rgba(0, 0, 0, 0.4)), url('../images/bg1.jpeg') center/cover fixed no-repeat;
 }
 
 .menu-text {
@@ -323,6 +322,7 @@ header {
     text-align: center;
     padding: 30px 0 20px 0;
     font-size: 30px;
+    transition: all 5s;
 }
 
 #social-icons a:hover .fab {
@@ -332,7 +332,7 @@ header {
     font-size: 30px;
     border-radius: 5px;
     cursor: pointer;
-    transition: transform 2s ease, color 2s ease;
+    transition: transform 5s ease, color 2s ease;
 }
 
 .fb {
@@ -359,7 +359,7 @@ header {
 
 .number {
     text-align: center;
-    background: linear-gradient(rgba(54, 51, 51, 0.226), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/5848496/pexels-photo-5848496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(54, 51, 51, 0.226), rgba(0, 0, 0, 0.4)), url('../images/bg2.jpeg') center/cover no-repeat fixed;
     padding: 40px 0;
     color: rgb(226, 213, 213);
 }
